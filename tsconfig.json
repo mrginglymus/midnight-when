@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "lib": ["dom"],
+    "target": "ES2023",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "include": ["scripts"]
+}

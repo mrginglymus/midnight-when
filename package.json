@@ -1,0 +1,19 @@
+{
+  "name": "average-time",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build:pop": "node scripts/build-pop.ts",
+    "build:tz": "node scripts/build-tz.ts",
+    "dev": "vite dev"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@vvo/tzdb": "^6.198.0",
+    "csv-parse": "^6.1.0",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  },
+  "packageManager": "yarn@4.12.0"
+}
